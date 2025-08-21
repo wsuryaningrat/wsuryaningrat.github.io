@@ -1,46 +1,159 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wahyu Suryaningrat</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #000;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .container {
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .profile-pic {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+    .profile-pic:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+    }
+    h3 {
+      font-weight: 400;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .social a {
+      margin: 0 12px;
+      font-size: 1.8rem;
+      text-decoration: none;
+      transition: transform 0.2s;
+    }
+    .social a:hover {
+      transform: scale(1.2);
+    }
+
+    /* brand colors */
+    .fa-linkedin { color: #0077b5; }
+    .fa-github { color: #181717; }
+    .fa-graduation-cap { color: #4285F4; }
+    .fa-facebook { color: #1877f2; }
+    .fa-instagram {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    nav {
+      margin-top: 30px;
+    }
+    nav a {
+      margin: 0 10px;
+      font-size: 1rem;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* fadeIn animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Dark mode styles */
+    body.dark-mode {
+      background: #121212;
+      color: #f1f1f1;
+    }
+
+    body.dark-mode h3 {
+      color: #ccc;
+    }
+
+    body.dark-mode nav a {
+      color: #66b2ff;
+    }
+
+    body.dark-mode nav a:hover {
+      color: #99ccff;
+    }
+
+    /* Toggle button */
+    .mode-toggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: inherit;
+      transition: transform 0.3s ease;
+    }
+
+    .mode-toggle:hover {
+      transform: rotate(20deg) scale(1.2);
+    }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body>
+  <!-- Mode toggle -->
+  <div class="mode-toggle" id="modeToggle">
+    <div class="toggle-circle"></div>
+  </div>
+  <div class="container">
+    <img src="images/profile.jpg" alt="Foto Profil" class="profile-pic">
+    <h1>Wahyu Suryaningrat</h1>
+    <h3>Data Scientist, Researcher, Academic</h3>
 
-  <!-- Header -->
-  <header class="text-center py-16 bg-white shadow">
-    <h1 class="text-4xl font-bold">Wahyu Suryaningrat</h1>
-    <p class="text-lg mt-2">Data Scientist · Peneliti · Teknologi</p>
-    <p class="text-sm text-gray-500">Salatiga, Indonesia</p>
-  </header>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/wsningrat/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/wsuryaningrat" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://scholar.google.co.id/citations?user=UuBfV3UAAAAJ&hl=id" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+      <a href="https://www.instagram.com/wsningrat/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61561818347392" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
 
-  <!-- Navigation -->
-  <nav class="flex justify-center space-x-6 py-6 bg-gray-100">
-    <a href="/about" class="text-blue-600 hover:underline">About</a>
-    <a href="/project" class="text-blue-600 hover:underline">Projects</a>
-    <a href="https://notes.wsningrat.id" class="text-blue-600 hover:underline">Notes</a>
-    <a href="/journal" class="text-blue-600 hover:underline">Journal</a>
-    <a href="/contact" class="text-blue-600 hover:underline">Contact</a>
-  </nav>
-
-  <!-- Main Content -->
-  <main class="max-w-3xl mx-auto px-6 py-12">
-    <section class="text-center">
-      <h2 class="text-2xl font-semibold mb-4">Selamat datang 👋</h2>
-      <p class="text-gray-700 leading-relaxed">
-        Ini adalah personal site saya. Kamu bisa menemukan catatan, proyek, dan jurnal saya di sini.
-      </p>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="text-center py-8 bg-gray-100 text-sm text-gray-500">
-    © <span id="year"></span> Wahyu Suryaningrat · Dibangun dengan ❤️
-  </footer>
+    <nav>
+      <a href="/about">About</a> 
+      <a href="https://notes.wsningrat.id" target="_blank">Digital Garden</a> 
+      <a href="/publications">Publications</a> 
+      <a href="/portfolio">Projects</a>  
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    const toggle = document.getElementById('modeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
   </script>
 </body>
 </html>
