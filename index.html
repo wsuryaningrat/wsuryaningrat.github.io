@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wahyu Suryaningrat</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="text-center py-16 bg-white shadow">
+    <h1 class="text-4xl font-bold">Wahyu Suryaningrat</h1>
+    <p class="text-lg mt-2">Data Scientist · Peneliti · Teknologi</p>
+    <p class="text-sm text-gray-500">Salatiga, Indonesia</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="flex justify-center space-x-6 py-6 bg-gray-100">
+    <a href="/about" class="text-blue-600 hover:underline">About</a>
+    <a href="/project" class="text-blue-600 hover:underline">Projects</a>
+    <a href="https://notes.wsningrat.id" class="text-blue-600 hover:underline">Notes</a>
+    <a href="/journal" class="text-blue-600 hover:underline">Journal</a>
+    <a href="/contact" class="text-blue-600 hover:underline">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="max-w-3xl mx-auto px-6 py-12">
+    <section class="text-center">
+      <h2 class="text-2xl font-semibold mb-4">Selamat datang 👋</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Ini adalah personal site saya. Kamu bisa menemukan catatan, proyek, dan jurnal saya di sini.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-8 bg-gray-100 text-sm text-gray-500">
+    © <span id="year"></span> Wahyu Suryaningrat · Dibangun dengan ❤️
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
