@@ -81,7 +81,7 @@ export default function Hero() {
                   <span className="inline-block">
                     {t('language') === 'id' ? 'Halo, saya seorang ' : 'Hi, I\'m a '}
                   </span>
-                  <div className="inline-block w-48 sm:w-56 md:w-64 text-left">
+                  <div className="inline-block w-48 sm:w-56 md:w-64 text-left ml-1">
                     <AnimatePresence mode="wait">
                       <motion.span 
                         key={roleIndex}
