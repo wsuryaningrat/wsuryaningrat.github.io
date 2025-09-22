@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Download, User } from 'lucide-react';
+import { ArrowRight, Download } from 'lucide-react';
 import Button from '../components/Button';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -122,17 +122,14 @@ export default function Hero() {
             >
               <Button
                 onClick={toggleAbout}
-                variant="outline"
-                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-purple-200 dark:border-purple-700 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-900/20"
+                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap bg-purple-600 hover:bg-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-200"
               >
                 {t('language') === 'id' ? 'Tentang' : 'About'}
-                <User className="w-4 h-4" />
               </Button>
               
               <Button
                 onClick={downloadCV}
-                variant="outline"
-                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-purple-200 dark:border-purple-700 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-900/20"
+                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap bg-purple-600 hover:bg-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-200"
               >
                 {t('language') === 'id' ? 'Unduh CV' : 'Download CV'}
                 <Download className="w-4 h-4" />
@@ -140,11 +137,9 @@ export default function Hero() {
 
               <Button
                 onClick={scrollToContact}
-                variant="outline"
-                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-purple-200 dark:border-purple-700 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-900/20"
+                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap bg-purple-600 hover:bg-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-200"
               >
-                {t('language') === 'id' ? 'Hubungi Saya' : 'Contact Me'}
-                <ArrowRight className="w-4 h-4" />
+                {t('language') === 'id' ? 'Hubungi' : 'Contact'}
               </Button>
             </motion.div>
 
@@ -158,16 +153,14 @@ export default function Hero() {
                   transition={{ duration: 0.3, ease: "easeInOut" }}
                   className="overflow-hidden w-full max-w-3xl"
                 >
-                  <motion.div
-                    className="mt-4 p-4 bg-gray-50 dark:bg-gray-800/50 rounded-lg border border-gray-200 dark:border-gray-700"
+                  <motion.p
+                    className="text-center text-gray-600 dark:text-gray-400 leading-relaxed mt-4"
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3, delay: 0.1 }}
                   >
-                    <p className="text-center text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                      {t('about')}
-                    </p>
-                  </motion.div>
+                    {t('about')}
+                  </motion.p>
                 </motion.div>
               )}
             </AnimatePresence>
