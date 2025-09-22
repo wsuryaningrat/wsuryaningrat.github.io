@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { site } from '../config/site';
 import { useScrollSpy } from '../hooks/useScrollSpy';
 import { useLanguage } from '../contexts/LanguageContext';
-import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -105,9 +104,6 @@ export default function Navbar() {
                 )}
               </button>
             ))}
-            
-            {/* Language Switcher */}
-            <LanguageSwitcher />
           </div>
         </div>
       </div>

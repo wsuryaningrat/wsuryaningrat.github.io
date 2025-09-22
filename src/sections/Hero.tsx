@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="flex flex-col items-center text-center space-y-6">
+          <div className="flex flex-col items-start text-left space-y-6">
             {/* Profile Image */}
             <motion.div
               className="flex-shrink-0"
