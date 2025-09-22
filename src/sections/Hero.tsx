@@ -121,29 +121,30 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 1.0 }}
             >
               <Button
-                onClick={scrollToContact}
-                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap"
-              >
-                {t('navigation.contact')}
-                <ArrowRight className="w-4 h-4" />
-              </Button>
-              
-              <Button
-                onClick={downloadCV}
-                variant="secondary"
-                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap"
-              >
-                {t('language') === 'id' ? 'Unduh CV' : 'Download CV'}
-                <Download className="w-4 h-4" />
-              </Button>
-
-              <Button
                 onClick={toggleAbout}
                 variant="outline"
                 className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-purple-200 dark:border-purple-700 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-900/20"
               >
                 {t('language') === 'id' ? 'Tentang' : 'About'}
                 <User className="w-4 h-4" />
+              </Button>
+              
+              <Button
+                onClick={downloadCV}
+                variant="outline"
+                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-purple-200 dark:border-purple-700 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-900/20"
+              >
+                {t('language') === 'id' ? 'Unduh CV' : 'Download CV'}
+                <Download className="w-4 h-4" />
+              </Button>
+
+              <Button
+                onClick={scrollToContact}
+                variant="outline"
+                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-purple-200 dark:border-purple-700 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-900/20"
+              >
+                {t('language') === 'id' ? 'Hubungi Saya' : 'Contact Me'}
+                <ArrowRight className="w-4 h-4" />
               </Button>
             </motion.div>
 

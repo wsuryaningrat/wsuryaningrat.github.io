@@ -6,7 +6,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const activeSection = useScrollSpy(['hero', 'about', 'work', 'education', 'skills', 'projects', 'achievements', 'contact']);
+  const activeSection = useScrollSpy(['hero', 'work', 'education', 'skills', 'projects', 'achievements', 'contact']);
   const { t } = useLanguage();
 
   useEffect(() => {
@@ -30,7 +30,6 @@ export default function Navbar() {
 
   const navItems = [
     { name: t('navigation.home'), id: 'hero' },
-    { name: t('navigation.about'), id: 'about' },
     { name: t('navigation.work'), id: 'work' },
     { name: t('navigation.education'), id: 'education' },
     { name: t('navigation.skills'), id: 'skills' },
