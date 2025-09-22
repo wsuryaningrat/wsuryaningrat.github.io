@@ -1,0 +1,124 @@
+{
+  "name": "Wahyu Suryaningrat",
+  "roles": ["Data Scientist", "ML Engineer", "Researcher"],
+  "pitch": "Wahyu Suryaningrat is a Data Scientist & AI Specialist with MSc Math, 4+ yrs exp in risk modeling, ML, and data-driven projects.",
+  "about": "I’m passionate bridging machine learning with human understanding, making complex concepts clear and applicable. For me, AI is not just about algorithms but also about how people can learn, trust, and benefit from it.",
+  "cv": "/WahyuSuryaningrat_CV.pdf",
+  "tools": [
+    "R", "Python", "SQL", "Spark R", "XGBoost",
+    "Shiny", "TensorFlow", "Git", "MATLAB", "Maple", "Scilab"
+  ],
+  "workExperience": [
+    {
+      "company": "id/x partners",
+      "position": "Data Scientist Consultant",
+      "period": "2021 – 2025",
+      "description": "Developed and deployed robust credit scoring and income proxy models for top 5 Indonesian banks. Automated end-to-end modeling tools, reducing modeling time by 60% and streamlining risk analytics processes.",
+      "logo": "/logos/idx.jpg"
+    },
+    {
+      "company": "Institut Teknologi Sumatera (ITERA)",
+      "position": "Adjunct Lecturer & Guest Speaker",
+      "period": "2024",
+      "description": "Taught Numerical Methods and Elementary Linear Algebra courses with focus on applications in data analytics. Delivered guest lectures engaging 100+ students.",
+      "logo": "/logos/itera.png"
+    },
+    {
+      "company": "Zenius Education",
+      "position": "Quality Control",
+      "period": "2021 – 2022",
+      "description": "Evaluated and improved digital learning modules to meet quality standards. Collaborated with content creators and subject matter experts to enhance educational content.",
+      "logo": "/logos/zenius.png"
+    },
+    {
+      "company": "Universitas Padjadjaran",
+      "position": "Research & Laboratory Assistant",
+      "period": "2018 – 2021",
+      "description": "Supported research in epidemiological modeling and data analysis. Assisted in teaching Linear Algebra, Programming, and Numerical Methods. Presented research at national conferences.",
+      "logo": "/logos/unpad.png"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitas Padjadjaran",
+      "degree": "Master of Mathematics (Mathematical Modeling in Epidemiology)",
+      "period": "2019 – 2021",
+      "description": "Graduated with GPA 4.00/4.00. Specialized in infectious disease modeling, optimal control, and numerical simulation.",
+      "logo": "/logos/unpad.png"
+    },
+    {
+      "institution": "Universitas Padjadjaran",
+      "degree": "Bachelor of Mathematics",
+      "period": "2016 – 2020",
+      "description": "Graduated with GPA 3.56/4.00, honors Excellent. Focused on applied mathematics, statistics, and mathematical modeling.",
+      "logo": "/logos/unpad.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Credit Scoring Models",
+      "desc": "Developed and deployed application, behavior, and collection scorecards for top Indonesian banks.",
+      "technologies": ["Python", "R", "SQL", "XGBoost"],
+      "link": "#",
+      "thumbnail": "/thumbnails/credit-score.jpg"
+    },
+    {
+      "title": "Income Proxy Models",
+      "desc": "Built predictive income proxy models using bank, telco, and BPJS data sources.",
+      "technologies": ["R", "Spark", "Machine Learning"],
+      "link": "#",
+      "thumbnail": "/thumbnails/dashboard-preview.png"
+    },
+    {
+      "title": "Hoax Analysis Dashboard",
+      "desc": "Interactive R-Shiny dashboard for hoax detection and visualization using text mining, sentiment analysis, and LDA topic modeling.",
+      "technologies": ["R", "Shiny", "NLP"],
+      "link": "https://wahyu-suryaningrat.shinyapps.io/IndonesianHoaxes/",
+      "thumbnail": "/thumbnails/hoax-dashboard.jpg"
+    }
+  ],
+  "achievements": [
+    {
+      "organizer": "Institut Teknologi Bandung",
+      "title": "1st Place - Mathematics Modelling Competition (MCF)",
+      "date": "2019",
+      "description": "Won 1st place for national-level applied mathematics modeling competition.",
+      "logo": "/logos/itb.png"
+    },
+    {
+      "organizer": "Universitas Padjadjaran",
+      "title": "1st Place - Scientific Paper Competition (Mathematics Profession Day)",
+      "date": "2019",
+      "description": "Awarded 1st place for scientific paper presentation in mathematics modeling.",
+      "logo": "/logos/unpad.png"
+    },
+    {
+      "organizer": "Universitas Padjadjaran",
+      "title": "1st Place - Scientific Paper Competition (MIPA Academic Competition)",
+      "date": "2019",
+      "description": "Won 1st place in national scientific paper competition.",
+      "logo": "/logos/unpad.png"
+    },
+    {
+      "organizer": "Universitas Padjadjaran",
+      "title": "3rd Runner Up - Most Outstanding Student",
+      "date": "2019",
+      "description": "Recognized among top students of Bachelor of Mathematics program.",
+      "logo": "/logos/unpad.png"
+    },
+    {
+      "organizer": "CIMB Niaga",
+      "title": "Finalist - 3D Data Conquest International Data Science Competition",
+      "date": "2018",
+      "description": "Reached final round in international data science competition.",
+      "logo": "/logos/cimb.png"
+    }
+  ],
+  "contact": {
+    "linkedin": "https://linkedin.com/in/wsningrat",
+    "github": "https://github.com/wsuryaningrat",
+    "blog": "https://poneglyph.wsningrat.site/",
+    "googleScholar": "https://scholar.google.com/citations?user=UuBfV3UAAAAJ&hl=id",
+    "instagram": "https://www.instagram.com/wsningrat/?hl=en"
+  }
+}

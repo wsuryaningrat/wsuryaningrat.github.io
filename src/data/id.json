@@ -1,0 +1,177 @@
+{
+  "name": "Wahyu Suryaningrat",
+  "roles": ["Data Scientist", "ML Engineer", "Researcher"],
+  "pitch": "Wahyu Suryaningrat adalah Data Scientist & AI Specialist dengan gelar MSc Matematika, lebih dari 4 tahun pengalaman di risk modeling, ML, dan proyek berbasis data.",
+  "about": "Saya bersemangat menjembatani ML dengan pemahaman manusia, membuat konsep kompleks menjadi jelas dan aplikatif. Bagi saya, AI bukan hanya soal algoritma, tapi juga bagaimana orang bisa belajar dan merasakan manfaatnya.",
+  "cv": "/WahyuSuryaningrat_CV.pdf",
+  "tools": [
+    "R", "Python", "SQL", "Spark R", "XGBoost",
+    "Shiny", "TensorFlow", "Git", "MATLAB", "Maple", "Scilab"
+  ],
+  "workExperience": [
+    {
+      "company": "id/x partners",
+      "position": "Data Scientist Consultant",
+      "period": "2021 – 2025",
+      "description": "Mengembangkan dan menerapkan model credit scoring dan income proxy untuk 5 bank terbesar di Indonesia. Mengotomasi tools pemodelan end-to-end, memangkas waktu pemodelan hingga 60% dan mempercepat proses analitik risiko.",
+      "logo": "/logos/idx.jpg"
+    },
+    {
+      "company": "Institut Teknologi Sumatera (ITERA)",
+      "position": "Dosen Luar Biasa & Guest Speaker",
+      "period": "2024",
+      "description": "Mengajar mata kuliah Metode Numerik dan Aljabar Linear Dasar dengan fokus aplikasi pada analitik data. Memberikan kuliah tamu yang melibatkan lebih dari 100 mahasiswa.",
+      "logo": "/logos/itera.png"
+    },
+    {
+      "company": "Zenius Education",
+      "position": "Quality Control",
+      "period": "2021 – 2022",
+      "description": "Menilai dan meningkatkan modul pembelajaran digital agar sesuai standar kualitas. Bekerja sama dengan pembuat konten dan subject matter expert untuk menyempurnakan materi edukasi.",
+      "logo": "/logos/zenius.png"
+    },
+    {
+      "company": "Universitas Padjadjaran",
+      "position": "Asisten Riset & Laboratorium",
+      "period": "2018 – 2021",
+      "description": "Mendukung riset pemodelan epidemiologi dan analisis data. Membantu mengajar Aljabar Linear, Pemrograman, dan Metode Numerik. Memresentasikan riset pada konferensi nasional.",
+      "logo": "/logos/unpad.png"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitas Padjadjaran",
+      "degree": "Magister Matematika (Pemodelan Matematika dalam Epidemiologi)",
+      "period": "2019 – 2021",
+      "description": "Lulus dengan IPK 4.00/4.00. Spesialisasi dalam pemodelan penyakit menular, kontrol optimal, dan simulasi numerik.",
+      "logo": "/logos/unpad.png"
+    },
+    {
+      "institution": "Universitas Padjadjaran",
+      "degree": "Sarjana Matematika",
+      "period": "2016 – 2020",
+      "description": "Lulus dengan IPK 3.56/4.00, predikat Cumlaude. Fokus pada matematika terapan, statistik, dan pemodelan matematika.",
+      "logo": "/logos/unpad.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Model Credit Scoring",
+      "desc": "Mengembangkan dan menerapkan application, behavior, dan collection scorecards untuk bank-bank terbesar di Indonesia.",
+      "technologies": ["Python", "R", "SQL", "XGBoost"],
+      "website": "#",
+      "doc": "#",
+      "github": "#",
+      "thumbnail": "/thumbnails/credit-score.jpg"
+    },
+    {
+      "title": "Model Income Proxy",
+      "desc": "Membangun model prediktif income proxy menggunakan data bank, telko, dan BPJS.",
+      "technologies": ["R", "Spark", "Machine Learning"],
+      "website": "#",
+      "doc": "#",
+      "github": "#",
+      "thumbnail": "/thumbnails/dashboard-preview.png"
+    },
+    {
+      "title": "Dashboard Analisis Hoaks",
+      "desc": "Dashboard interaktif R-Shiny untuk deteksi dan visualisasi hoaks menggunakan text mining, sentiment analysis, dan LDA topic modeling.",
+      "technologies": ["R", "Shiny", "NLP"],
+      "website": "https://wahyu-suryaningrat.shinyapps.io/IndonesianHoaxes/",
+      "doc": "#",
+      "github": "#",
+      "thumbnail": "/thumbnails/hoax-dashboard.jpg"
+    }
+  ],
+  "achievements": [
+    {
+      "organizer": "Institut Teknologi Bandung",
+      "title": "Juara 1 - Mathematics Modelling Competition (MCF)",
+      "date": "2019",
+      "description": "Juara 1 lomba pemodelan matematika tingkat nasional.",
+      "logo": "/logos/itb.png"
+    },
+    {
+      "organizer": "Universitas Padjadjaran",
+      "title": "Juara 1 - Lomba Karya Tulis Ilmiah (Mathematics Profession Day)",
+      "date": "2019",
+      "description": "Juara 1 presentasi karya tulis ilmiah bidang pemodelan matematika.",
+      "logo": "/logos/unpad.png"
+    },
+    {
+      "organizer": "Universitas Padjadjaran",
+      "title": "Juara 1 - Lomba Karya Tulis Ilmiah (MIPA Academic Competition)",
+      "date": "2019",
+      "description": "Juara 1 lomba karya tulis ilmiah tingkat nasional.",
+      "logo": "/logos/unpad.png"
+    },
+    {
+      "organizer": "Universitas Padjadjaran",
+      "title": "Harapan 3 - Mahasiswa Berprestasi",
+      "date": "2019",
+      "description": "Masuk 4 besar mahasiswa berprestasi Program Studi Matematika.",
+      "logo": "/logos/unpad.png"
+    },
+    {
+      "organizer": "CIMB Niaga",
+      "title": "Finalis - 3D Data Conquest International Data Science Competition",
+      "date": "2018",
+      "description": "Finalis kompetisi data science tingkat internasional.",
+      "logo": "/logos/cimb.png"
+    }
+  ],
+  "contact": {
+    "linkedin": "https://linkedin.com/in/wsningrat",
+    "github": "https://github.com/wsuryaningrat",
+    "blog": "https://poneglyph.wsningrat.site/",
+    "googleScholar": "https://scholar.google.com/citations?user=UuBfV3UAAAAJ&hl=id",
+    "instagram": "https://www.instagram.com/wsningrat/?hl=en"
+  },
+  "navigation": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "work": "Pengalaman",
+    "education": "Pendidikan",
+    "skills": "Keahlian",
+    "projects": "Proyek",
+    "achievements": "Prestasi",
+    "contact": "Kontak"
+  },
+  "sections": {
+    "about": {
+      "title": "Tentang Saya",
+      "subtitle": "Data Scientist & AI Specialist",
+      "introText": "NA"
+    },
+    "work": {
+      "title": "Pengalaman Kerja",
+      "subtitle": "Perjalanan Profesional",
+      "introText": "Saya telah memperoleh pengalaman berharga dalam data science dan machine learning di berbagai industri, mulai dari jasa keuangan hingga pendidikan."
+    },
+    "education": {
+      "title": "Pendidikan",
+      "subtitle": "Latar Belakang Akademik",
+      "introText": "NA"
+    },
+    "skills": {
+      "title": "Keahlian & Tools",
+      "subtitle": "Keahlian Teknis",
+      "introText": "NA"
+    },
+    "projects": {
+      "title": "Proyek",
+      "subtitle": "Karya Unggulan",
+      "introText": "Berikut adalah beberapa proyek utama yang menunjukkan keahlian saya dalam data science, machine learning, dan pengembangan web."
+    },
+    "achievements": {
+      "title": "Prestasi",
+      "subtitle": "Penghargaan & Pengakuan",
+      "introText": "Selama studi, saya aktif berpartisipasi dalam kompetisi karya tulis ilmiah dan hackathon."
+    },
+    "contact": {
+      "title": "Hubungi Saya",
+      "subtitle": "Mari Terhubung",
+      "introText": "NA"
+    }
+  }
+}
