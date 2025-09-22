@@ -122,14 +122,16 @@ export default function Hero() {
             >
               <Button
                 onClick={toggleAbout}
-                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap bg-purple-600 hover:bg-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-200"
+                variant="outline"
+                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-white dark:bg-gray-900 dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-400 dark:hover:text-gray-900 transition-all duration-200 font-medium"
               >
                 {t('language') === 'id' ? 'Tentang' : 'About'}
               </Button>
               
               <Button
                 onClick={downloadCV}
-                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap bg-purple-600 hover:bg-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-200"
+                variant="outline"
+                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-white dark:bg-gray-900 dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-400 dark:hover:text-gray-900 transition-all duration-200 font-medium"
               >
                 {t('language') === 'id' ? 'Unduh CV' : 'Download CV'}
                 <Download className="w-4 h-4" />
@@ -137,7 +139,8 @@ export default function Hero() {
 
               <Button
                 onClick={scrollToContact}
-                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap bg-purple-600 hover:bg-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-200"
+                variant="outline"
+                className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-white dark:bg-gray-900 dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-400 dark:hover:text-gray-900 transition-all duration-200 font-medium"
               >
                 {t('language') === 'id' ? 'Hubungi' : 'Contact'}
               </Button>
