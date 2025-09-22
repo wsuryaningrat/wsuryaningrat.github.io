@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, ReactNode } from 'react';
 import enTranslations from '../data/en.json';
 import idTranslations from '../data/id.json';
 
@@ -27,7 +27,7 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
     const saved = localStorage.getItem('language');
     return (saved as Language) || 'en';
   });
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading] = useState(false);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);

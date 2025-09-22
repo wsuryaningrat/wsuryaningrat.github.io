@@ -1,6 +1,4 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import SectionTitle from '../components/SectionTitle';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Skills() {

@@ -1,6 +1,4 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import SectionTitle from '../components/SectionTitle';
 import TimelineRow from '../components/TimelineRow';
 import { useLanguage } from '../contexts/LanguageContext';
 

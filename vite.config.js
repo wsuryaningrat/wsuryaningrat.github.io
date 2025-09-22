@@ -9,16 +9,7 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    minify: 'esbuild',
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          motion: ['framer-motion'],
-          icons: ['lucide-react']
-        }
-      }
-    }
+    minify: 'esbuild'
   },
   server: {
     port: 3000,

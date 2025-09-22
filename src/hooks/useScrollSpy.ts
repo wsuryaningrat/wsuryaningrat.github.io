@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export function useScrollSpy(sectionIds: string[]) {
   const [activeSection, setActiveSection] = useState<string>('');

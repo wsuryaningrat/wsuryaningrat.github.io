@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 
 export function useClipboardToast() {
   const [toast, setToast] = useState<string | null>(null);

@@ -1,9 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, FileText, Github, Globe } from 'lucide-react';
-import SectionTitle from '../components/SectionTitle';
+import { FileText, Github, Globe } from 'lucide-react';
 import IntroText from '../components/IntroText';
-import Button from '../components/Button';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export default function Projects() {

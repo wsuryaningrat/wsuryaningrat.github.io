@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Home, Github, Linkedin, BookOpen, Sun, Moon, GraduationCap, Instagram } from 'lucide-react';
 import { site } from '../config/site';

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { site } from './config/site';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
