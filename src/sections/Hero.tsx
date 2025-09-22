@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="flex flex-col items-start text-left space-y-6">
+          <div className="flex flex-col items-center text-center space-y-6">
             {/* Profile Image */}
             <motion.div
               className="flex-shrink-0"
@@ -78,19 +78,23 @@ export default function Hero() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  {t('language') === 'id' ? 'Halo, saya seorang ' : 'Hi, I\'m a '}
-                  <AnimatePresence mode="wait">
-                    <motion.span 
-                      key={roleIndex}
-                      className="text-gradient inline-block"
-                      initial={{ opacity: 0, y: 20, rotateX: -90 }}
-                      animate={{ opacity: 1, y: 0, rotateX: 0 }}
-                      exit={{ opacity: 0, y: -20, rotateX: 90 }}
-                      transition={{ duration: 0.5, ease: "easeInOut" }}
-                    >
-                      {t('roles')[roleIndex]}
-                    </motion.span>
-                  </AnimatePresence>
+                  <span className="inline-block">
+                    {t('language') === 'id' ? 'Halo, saya seorang ' : 'Hi, I\'m a '}
+                  </span>
+                  <div className="inline-block w-48 sm:w-56 md:w-64 text-left">
+                    <AnimatePresence mode="wait">
+                      <motion.span 
+                        key={roleIndex}
+                        className="text-gradient inline-block"
+                        initial={{ opacity: 0, y: 20, rotateX: -90 }}
+                        animate={{ opacity: 1, y: 0, rotateX: 0 }}
+                        exit={{ opacity: 0, y: -20, rotateX: 90 }}
+                        transition={{ duration: 0.5, ease: "easeInOut" }}
+                      >
+                        {t('roles')[roleIndex]}
+                      </motion.span>
+                    </AnimatePresence>
+                  </div>
                 </motion.h1>
                 
                 <motion.p
