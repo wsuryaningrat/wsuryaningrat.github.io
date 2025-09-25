@@ -111,7 +111,7 @@ export default function Projects() {
                         whileTap={{ scale: 0.95 }}
                       >
                         <Globe className="w-3 h-3" />
-                        {t('language') === 'id' ? 'Website' : 'Website'}
+                        Website
                       </motion.a>
                     )}
                     
@@ -125,7 +125,7 @@ export default function Projects() {
                         whileTap={{ scale: 0.95 }}
                       >
                         <FileText className="w-3 h-3" />
-                        {t('language') === 'id' ? 'Dokumentasi' : 'Docs'}
+                        Docs
                       </motion.a>
                     )}
                     

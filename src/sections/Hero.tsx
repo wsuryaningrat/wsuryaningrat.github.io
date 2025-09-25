@@ -85,7 +85,7 @@ export default function Hero() {
                 >
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-2">
                     <span className="inline-block text-center">
-                      {t('language') === 'id' ? 'Halo, saya seorang ' : 'Hi, I\'m a '}
+                      Hi, I'm a 
                     </span>
                     <div className="inline-block min-w-0 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg text-center">
                       <AnimatePresence mode="wait">
@@ -127,7 +127,7 @@ export default function Hero() {
                 variant="outline"
                 className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-white dark:bg-gray-900 dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-400 dark:hover:text-gray-900 transition-all duration-200 font-medium"
               >
-                {t('language') === 'id' ? 'Tentang' : 'About'}
+                About
               </Button>
               
               <Button
@@ -135,7 +135,7 @@ export default function Hero() {
                 variant="outline"
                 className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-white dark:bg-gray-900 dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-400 dark:hover:text-gray-900 transition-all duration-200 font-medium"
               >
-                {t('language') === 'id' ? 'Unduh CV' : 'Download CV'}
+                Download CV
                 <Download className="w-4 h-4" />
               </Button>
 
@@ -144,7 +144,7 @@ export default function Hero() {
                 variant="outline"
                 className="flex-1 inline-flex justify-center gap-2 whitespace-nowrap border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white bg-white dark:bg-gray-900 dark:border-purple-400 dark:text-purple-400 dark:hover:bg-purple-400 dark:hover:text-gray-900 transition-all duration-200 font-medium"
               >
-                {t('language') === 'id' ? 'Hubungi' : 'Contact'}
+                Contact
               </Button>
             </motion.div>
 

@@ -12,7 +12,6 @@ interface StickyPanelProps {
 
 export default function StickyPanel({ isDark, toggleTheme }: StickyPanelProps) {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
-  const { language, setLanguage } = useLanguage();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -80,29 +79,6 @@ export default function StickyPanel({ isDark, toggleTheme }: StickyPanelProps) {
 
         {/* Separator */}
         <div className="w-px h-5 bg-gray-300 dark:bg-gray-600"></div>
-
-        {/* Language Switcher */}
-        <Tooltip
-          content={language === 'en' ? 'Switch to Indonesian' : 'Switch to English'}
-          show={hoveredItem === 'language'}
-        >
-          <div
-            onMouseEnter={() => setHoveredItem('language')}
-            onMouseLeave={() => setHoveredItem(null)}
-          >
-            <motion.button
-              onClick={() => setLanguage(language === 'en' ? 'id' : 'en')}
-              className="w-8 h-8 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200"
-              whileHover={{ scale: 1.08 }}
-              whileTap={{ scale: 0.95 }}
-              style={{ willChange: 'transform' }}
-            >
-              <span className="text-xs font-bold">
-                {language === 'en' ? 'EN' : 'ID'}
-              </span>
-            </motion.button>
-          </div>
-        </Tooltip>
 
         {/* Theme Toggle */}
         <Tooltip
