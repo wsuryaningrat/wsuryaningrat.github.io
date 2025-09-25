@@ -81,6 +81,15 @@
       "doc": "#",
       "github": "#",
       "thumbnail": "/thumbnails/hoax-dashboard.jpeg"
+    },
+    {
+      "title": "MBG Food Poisoning Dashboard",
+      "desc": "Data visualization dashboard for food poisoning cases in MBG using R-Shiny and Leaflet.",
+      "technologies": ["R", "Shiny", "Leaflet", "GIS"],
+      "website": "https://wsningrat.shinyapps.io/kasus-mbg/",
+      "doc": "#",
+      "github": "https://github.com/wsuryaningrat/mbg-food-poisoning-data",
+      "thumbnail": "/thumbnails/income-proxy.gif"
     }
   ],
   "achievements": [

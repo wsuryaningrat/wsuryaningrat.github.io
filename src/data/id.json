@@ -71,7 +71,7 @@
       "website": "#",
       "doc": "#",
       "github": "#",
-      "thumbnail": "/thumbnails/kasus-mbg.gif"
+      "thumbnail": "/thumbnails/income-proxy.gif"
     },
     {
       "title": "Dashboard Analisis Hoaks",
@@ -81,6 +81,15 @@
       "doc": "#",
       "github": "#",
       "thumbnail": "/thumbnails/hoax-dashboard.jpeg"
+    },
+    {
+      "title": "Dashboard MBG Food Poisoning",
+      "desc": "Visualisasi data kasus keracunan makanan di MBG menggunakan R-Shiny dan Leaflet.",
+      "technologies": ["R", "Shiny", "Leaflet","GIS"],
+      "website": "https://wsningrat.shinyapps.io/kasus-mbg/",
+      "doc": "#",
+      "github": "https://github.com/wsuryaningrat/mbg-food-poisoning-data",
+      "thumbnail": "/thumbnails/income-proxy.gif"
     }
   ],
   "achievements": [
