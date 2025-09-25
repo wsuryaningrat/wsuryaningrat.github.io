@@ -13,7 +13,7 @@
       "company": "id/x partners",
       "position": "Data Scientist Consultant",
       "period": "2021 – 2025",
-      "description": "Developed and deployed robust credit scoring and income proxy models for top 5 Indonesian banks. Automated end-to-end modeling tools, reducing modeling time by 60% and streamlining risk analytics processes.",
+      "description": "Developed and deployed robust risk scoring and income proxy models for top 5 Indonesian banks. Automated end-to-end modeling tools, reducing modeling time by 60% and streamlining risk analytics processes.",
       "logo": "/logos/idx.jpg"
     },
     {
@@ -56,7 +56,7 @@
   ],
   "projects": [
     {
-      "title": "Credit Scoring Models",
+      "title": "Risk Scoring Models",
       "desc": "Developed and deployed application, behavior, and collection scorecards for top Indonesian banks.",
       "technologies": ["Python", "R", "SQL", "XGBoost"],
       "website": "#",
@@ -76,7 +76,7 @@
     {
       "title": "Hoax Analysis Dashboard",
       "desc": "Interactive R-Shiny dashboard for hoax detection and visualization using text mining, sentiment analysis, and LDA topic modeling.",
-      "technologies": ["R", "Shiny", "NLP"],
+      "technologies": ["Web Scraping","Python","R", "Shiny", "NLP"],
       "website": "https://wahyu-suryaningrat.shinyapps.io/IndonesianHoaxes/",
       "doc": "#",
       "github": "#",
