@@ -71,7 +71,7 @@
       "website": "#",
       "doc": "#",
       "github": "#",
-      "thumbnail": "/thumbnails/kasus-mbg.gif"
+      "thumbnail": "/thumbnails/income-proxy.gif"
     },
     {
       "title": "Hoax Analysis Dashboard",
@@ -89,7 +89,7 @@
       "website": "https://wsningrat.shinyapps.io/kasus-mbg/",
       "doc": "#",
       "github": "https://github.com/wsuryaningrat/mbg-food-poisoning-data",
-      "thumbnail": "/thumbnails/income-proxy.gif"
+      "thumbnail": "/thumbnails/kasus-mbg.gif"
     }
   ],
   "achievements": [

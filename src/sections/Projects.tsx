@@ -10,13 +10,13 @@ export default function Projects() {
   
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: -320, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: -304, behavior: 'smooth' });
     }
   };
   
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: 320, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: 304, behavior: 'smooth' });
     }
   };
   
@@ -54,11 +54,11 @@ export default function Projects() {
             </button>
             
             <div className="overflow-x-auto pb-4 project-scroll" ref={scrollContainerRef}>
-              <div className="flex gap-4 min-w-max px-12">
+              <div className="flex gap-4 min-w-max px-8">
               {t('projects').map((project: any, index: number) => (
                 <motion.div
                   key={project.title}
-                  className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow duration-200 w-80 flex-shrink-0"
+                  className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow duration-200 w-72 flex-shrink-0"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
