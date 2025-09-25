@@ -33,6 +33,18 @@ export default function Projects() {
                 whileHover={{ scale: 1.02 }}
               >
                 <div className="space-y-3">
+                  {/* Project Thumbnail */}
+                  {project.thumbnail && (
+                    <div className="relative overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-700">
+                      <img
+                        src={project.thumbnail}
+                        alt={project.title}
+                        className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
+                  
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">
                       {project.title}

@@ -78,27 +78,29 @@ export default function Hero() {
               {/* Greeting and Role */}
               <div className="space-y-3">
                 <motion.h1 
-                  className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 leading-tight"
+                  className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 leading-tight text-center"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  <span className="inline-block">
-                    {t('language') === 'id' ? 'Halo, saya seorang ' : 'Hi, I\'m a '}
-                  </span>
-                  <div className="inline-block w-48 sm:w-56 md:w-64 text-left ml-1">
-                    <AnimatePresence mode="wait">
-                      <motion.span 
-                        key={roleIndex}
-                        className="text-gradient inline-block"
-                        initial={{ opacity: 0, y: 20, rotateX: -90 }}
-                        animate={{ opacity: 1, y: 0, rotateX: 0 }}
-                        exit={{ opacity: 0, y: -20, rotateX: 90 }}
-                        transition={{ duration: 0.5, ease: "easeInOut" }}
-                      >
-                        {t('roles')[roleIndex]}
-                      </motion.span>
-                    </AnimatePresence>
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-2">
+                    <span className="inline-block text-center">
+                      {t('language') === 'id' ? 'Halo, saya seorang ' : 'Hi, I\'m a '}
+                    </span>
+                    <div className="inline-block min-w-0 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg text-center">
+                      <AnimatePresence mode="wait">
+                        <motion.span 
+                          key={roleIndex}
+                          className="text-gradient inline-block text-center break-words"
+                          initial={{ opacity: 0, y: 20, rotateX: -90 }}
+                          animate={{ opacity: 1, y: 0, rotateX: 0 }}
+                          exit={{ opacity: 0, y: -20, rotateX: 90 }}
+                          transition={{ duration: 0.5, ease: "easeInOut" }}
+                        >
+                          {t('roles')[roleIndex]}
+                        </motion.span>
+                      </AnimatePresence>
+                    </div>
                   </div>
                 </motion.h1>
                 
