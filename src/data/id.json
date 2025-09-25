@@ -62,7 +62,7 @@
       "website": "#",
       "doc": "#",
       "github": "#",
-      "thumbnail": "/thumbnails/credit-score.jpg"
+      "thumbnail": "/thumbnails/credit-score.gif"
     },
     {
       "title": "Model Income Proxy",
@@ -71,7 +71,7 @@
       "website": "#",
       "doc": "#",
       "github": "#",
-      "thumbnail": "/thumbnails/dashboard-preview.png"
+      "thumbnail": "/thumbnails/kasus-mbg.gif"
     },
     {
       "title": "Dashboard Analisis Hoaks",
@@ -80,7 +80,7 @@
       "website": "https://wahyu-suryaningrat.shinyapps.io/IndonesianHoaxes/",
       "doc": "#",
       "github": "#",
-      "thumbnail": "/thumbnails/hoax-dashboard.jpg"
+      "thumbnail": "/thumbnails/hoax-dashboard.jpeg"
     }
   ],
   "achievements": [
