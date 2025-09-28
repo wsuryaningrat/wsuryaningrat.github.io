@@ -6,7 +6,8 @@
   "cv": "/WahyuSuryaningrat_CV.pdf",
   "tools": [
     "R", "Python", "SQL", "Spark R", "XGBoost",
-    "Shiny", "TensorFlow", "Git", "MATLAB", "Maple", "Scilab"
+    "Shiny", "TensorFlow", "Git", "MATLAB", "Maple", "Scilab",
+    "HTML", "CSS", "JavaScript"
   ],
   "workExperience": [
     {
