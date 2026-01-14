@@ -11,6 +11,13 @@
   ],
   "workExperience": [
     {
+      "company": "Telkom University",
+      "position": "Data Scientist Lecturer",
+      "period": "2026 - now",
+      "description": "Implementing the 'Tridharma Perguruan Tinggi'.",
+      "logo": "/logos/telu.jpg"
+    },
+    {
       "company": "id/x partners",
       "position": "Data Scientist Consultant",
       "period": "2021 – 2025",
