@@ -4,6 +4,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import Navbar from './components/Navbar';
 import StickyPanel from './components/StickyPanel';
 import Hero from './sections/Hero';
+import Ventures from './sections/Ventures';
 import Work from './sections/Work';
 import Education from './sections/Education';
 import Skills from './sections/Skills';
@@ -37,6 +38,7 @@ function App() {
         
         <main className="pt-14 sm:pt-16">
           <Hero />
+          <Ventures />
           <Work />
           <Education />
           <Skills />

@@ -100,6 +100,23 @@
       "thumbnail": "/thumbnails/kasus-mbg.gif"
     }
   ],
+  "ventures": [
+    {
+      "name": "Riset",
+      "desc": "Rangkuman riset individu & kolaborasi dengan kolega.",
+      "url": "https://riset.wsningrat.com"
+    },
+    {
+      "name": "Deen",
+      "desc": "Catatan perjalanan keagamaan pribadi.",
+      "url": "https://deen.wsningrat.com"
+    },
+    {
+      "name": "PergiMain",
+      "desc": "Web app eksplorasi kuliner.",
+      "url": "https://pergimain.wsningrat.com"
+    }
+  ],
   "achievements": [
     {
       "organizer": "Institut Teknologi Bandung",
@@ -151,6 +168,7 @@
     "education": "Education",
     "skills": "Skills",
     "projects": "Projects",
+    "ventures": "Subdomains",
     "achievements": "Achievements",
     "contact": "Contact"
   },
@@ -179,6 +197,11 @@
       "title": "Projects",
       "subtitle": "Featured Work",
       "introText": "Here are some of my key projects that showcase my expertise in data science, machine learning, and web development."
+    },
+    "ventures": {
+      "title": "Subdomains & Apps",
+      "subtitle": "Other Things I'm Building",
+      "introText": "Beberapa subdomain dan aplikasi lain yang sedang saya kembangkan."
     },
     "achievements": {
       "title": "Achievements",
